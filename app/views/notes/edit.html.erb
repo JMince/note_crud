@@ -1,0 +1,11 @@
+<%= form_for @notes do |f| %>
+<%= f.label :content %>
+<%= f.text_area :content %>
+<br><br>
+
+<%= f.label :author %>
+<%= f.text_field :author %>
+<br><br>
+<%= f.submit "Edit" %>
+
+<% end %>
